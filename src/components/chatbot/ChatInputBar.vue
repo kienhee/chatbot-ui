@@ -49,6 +49,7 @@ defineEmits(['update:modelValue', 'send']);
 }
 
 .chat_input_bar_input {
+    box-sizing: border-box;
     width: 100%;
     padding: 8px 12px;
     background-color: #eef3ff;
